@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maquetado Framework CSS</title>
+
+    <!-- Bootstrap -->
+    <!-- Bulma -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css"/>
+   <link rel="stylesheet" href="Estilos.css"/>
+   <link rel="shortcut icon" href="https://bulma.io/favicons/favicon.ico?v=201701041855">
+
+    
+  </head>
+  <body>
+    <!-- cabecera -->
+    <section class="hero is-info">
+        <div class="hero-body"> 
+            <div>
+                <h1 class="title">Universidad de Colima</h1>
+                <p class="subtitle">Facultad de Telemática</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container">
+        <div class="row">
+            <header>
+                <!-- menu -->
+                <nav class="columns">
+                    <a class="column">Menu</a>
+                    <a class="column">Inicio</a>
+                    <a class="column">Nosotros</a>
+                    <a class="column"><select><option>Servicios</option></select></a>
+                    <a class="column"><input type="text" name="Busqueda"/><input type="submit" name="botonBuscar" value="Buscar"/></a>
+                    <a class="column">Usuario</a>
+                    <a class="column"><select><option>Mi cuenta</option></select></a>
+   
+                </nav>
+            </header>
+        </div>
+    </section>
+
+    <!-- Para colocar como cabecera artículo destacado -->
+    <div class="hero is-grey">
+      <div class="hero-body">
+            <div class="container ">
+                <h2 class="title">Articulo destacado de la semana</h2>
+                <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolorem ad officiis nihil delectus quidem animi rerum, molestias sint natus ducimus quod, unde molestiae dolores laboriosam error facilis odio doloremque.</p>
+                <p><a href="#" class="button is-link">Leer mas</a></p>
+            </div>
+      </div>
+    </div>
+
+    <!-- Acomodo de articulos -->
+    <section class="section">
+    <div class="container">
+        <div class="tile is-ancestor">
+            <!-- Primer bloque -->
+            <div class="tile is parent">
+                <article class="tile is-child red post">
+                    <h2 class="titulo">Titulo del articulo #1</h2>
+                    <figure></figure>
+                    <p class="post_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+                    <a href="" class="button is-primary">Leer mas</a>
+                </article>
+            </div>
+
+            <div class="tile is-parent">
+                <article class="tile is-child pink post">            
+                    <h2 class="titulo">Titulo del articulo #2</h2>
+                    <figure></figure>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+                    <a href="" class="button is-primary" >Leer mas</a>
+                </article>
+            </div>
+
+            <div class="tile is-parent">
+                <article class="tile is-child green post">
+                    <h2 class="titulo">Titulo del articulo #3</h2>
+                    <figure></figure>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+                    <a href="" class="button is-primary" >Leer mas</a>
+                </article>
+            </div>
+        </div>
+      <!-- Segundo bloque -->
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child blue post">
+                    <h2 class="titulo">Titulo del articulo #4</h2>
+                    <figure></figure>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+                    <a href="" class="button is-primary" >Leer mas</a>
+                </article>
+            </div>
+
+            <div class="tile is-parent">
+                <article class="tile is-child gold post">
+                    <h2 class="titulo">Titulo del articulo #5</h2>
+                    <figure></figure>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+                    <a href="" class="button is-primary" >Leer mas</a>
+                </article>
+            </div>
+
+            <div class="tile is-parent">
+                <article class="tile is-child purple post">
+                    <h2 class="titulo">Titulo del articulo #6</h2>
+                    <figure></figure>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat distinctio illo rerum atque ducimus, laboriosam debitis eum deserunt ab libero quis voluptas, illum, perferendis numquam aut aliquam itaque qui magnam!</p>
+                    <a href="" class="button is-primary" >Leer mas</a>
+                </article>
+            </div>
+        </div>
+
+    </d iv>
+    </section>
+
+
+    <!-- Páginación -->
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+        <a class="pagination-previous">&lt;&lt;</a>
+        <a class="pagination-next">&gt;&gt;</a>
+        <ul class="pagination-list">
+          <li><a class="pagination-link is-current" aria-label="Goto page 1">1</a></li>
+          <li><a class="pagination-link" aria-label="Goto page 2">2</a></li>
+          <li><a class="pagination-link" aria-label="Page 3" aria-current="page">3</a></li>
+          <li><a class="pagination-link" aria-label="Goto page 47">4</a></li>
+          <li><a class="pagination-link" aria-label="Goto page 5">5</a></li>
+        </ul>
+      </nav>
+
+    <!--<div class="paginacion">
+      <div class="columns">
+          <a href="#" class="column">&lt;&lt;</a>
+          <a href="#" class="column">1</a>
+          <a href="#" class="column">2</a>
+          <a href="#" class="column">3</a>
+          <a href="#" class="column">4</a>
+          <a href="#" class="column">5</a>
+          <a href="#" class="column">&gt;&gt;</a>
+      </div>
+    </div>-->
+
+    <!-- Pie de pagina -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>&copy; Desarrollado Por <a href="#">Owen Ramirez</a></p>        
+        </div>
+    </footer>
+
+  </body>
+</html>
